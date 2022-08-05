@@ -8,6 +8,7 @@
     <title>Create an account</title>
 
     <style>
+        *
         {
             padding: 0;
             margin: 0;
@@ -88,7 +89,7 @@
         hr{
             margin: 20px 40px 20px 40px;
         }
-        form input{
+        form .information1234{
             border: 1px solid gray;
             padding: 15px 20px 15px 20px!important;
         }
@@ -99,6 +100,9 @@
         }
         .hr1{
             margin-top: 150px;
+        }
+        .checkbox11{
+            margin: 10px 20px 0px 20px;
         }
 
         @media screen and (max-width:900px){
@@ -157,25 +161,38 @@
 <div class="information1">
     
     <label>Enter your Email</label><br><br>
-    <input type="text" placeholder="Enter your Email">
+    <input type="text" placeholder="Enter your Email" class="information1234">
     <br>
 
     <label>Enter your phone</label><br><br>
-    <input type="text" placeholder="Enter your phonr">
+    <input type="text" placeholder="Enter your phonr" class="information1234">
     <br>
 
     <label>Enter a password</label><br><br>
-    <input type="password" placeholder="Enter a password">
+    <input type="password" placeholder="Enter a password" class="information1234">
     <br>
 
     <label>Confirm your password</label><br><br>
-    <input type="password" placeholder="Enter a password">
+    <input type="password" placeholder="Enter a password" class="information1234">
     <br>
 
     <hr>
+</div>
 
+    <div>
+        <label>Who told you about us?</label>
+<br><br>
+        <input type="checkbox" class="checkbox11"><span>your friend</span>
+<br><br>
+        <input type="checkbox" class="checkbox11"><span>An advertaisment</span>
+<br><br>
+        <input type="checkbox" class="checkbox11"><span>From another website</span>
+<br><br>
+        <input type="checkbox" class="checkbox11"><span>another way</span>
+          
+</div>
     <center><button class="create"><a href="index.html">Create your account now</a></button></center>
-
+    
 </form>
 </div>
 
